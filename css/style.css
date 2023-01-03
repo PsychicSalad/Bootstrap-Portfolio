@@ -3,11 +3,12 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  margin-left: 5rem;
+  padding: 1rem;
+  font-family: "Courier", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   line-height: 1.5;
+  background: rgb(209, 159, 255);
 }
 
 h1,
@@ -21,22 +22,92 @@ h6 {
 
 p {
   margin: 0;
+  color: rgb(153, 27, 136) !important;
 }
 
-h1 {
-  color: green;
-}
-
-.jumbotron {
+#headerjumbo {
   color: rgb(47, 22, 94);
-  background: url(../images/color-2174049.png);
+  background: url(../images/jumbotron-bg-2.png);
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 700px !important;
+  text-align: left;
 }
-.jumbotron h1 {
+#headerjumbo h1 {
   color: rgb(47, 22, 94);
+  font-weight: bold;
 }
 
+.fa-brands {
+  color: rgb(255, 91, 233);
+  padding: 1rem;
+}
+
+#footerjumbo {
+  color: rgb(47, 22, 94);
+  background: rgb(95, 175, 207);
+  min-height: 400px !important;
+  text-align: center;
+}
+#footerjumbo h1 {
+  color: rgb(47, 22, 94);
+  font-weight: bold;
+}
+
+#footerjumbo .fa-brands {
+  color: rgb(243, 255, 68);
+  padding: 2rem;
+}
+
+.nav {
+  margin-left: -6rem;
+  margin-top: 20rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  padding: 0;
+  margin-right: 80vh;
+}
+
+.nav svg {
+  width: 2rem;
+  color: rgb(95, 175, 207);
+}
+
+/*
+#work {
+  margin: 1rem;
+  padding: 1rem;
+}
+*/
+#work .card-body {
+  background-color: rgb(230, 203, 255);
+}
+#work .btn {
+  background-color: rgb(255, 91, 233);
+  border-color: rgb(255, 91, 233);
+}
+
+#aboutme p,
+h5,
+h6 {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#aboutme img {
+  height: 30rem;
+  width: auto;
+  margin: 3rem;
+  padding: 3rem;
+}
 /*   
   height: 500px;
   height: calc(100vh- 25px);
