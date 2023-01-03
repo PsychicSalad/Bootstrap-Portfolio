@@ -81,12 +81,6 @@ p {
   color: rgb(95, 175, 207);
 }
 
-/*
-#work {
-  margin: 1rem;
-  padding: 1rem;
-}
-*/
 #work .card-body {
   background-color: rgb(230, 203, 255);
 }
@@ -128,9 +122,3 @@ h6 {
   padding: 1rem;
   margin: 1rem;
 }
-/*   
-  height: 500px;
-  height: calc(100vh- 25px);
-  display: flex;
-  align-items: center;
-  justify-content: center; */
